@@ -1,0 +1,400 @@
+body { font-family:'Poppins', sans-serif; }
+body {
+    margin: 0;
+    padding: 0;
+    
+}
+
+.Social a {
+    display: relative;
+    height: 20px;
+    margin-top: 5px;
+}
+
+.topnav {
+    margin-bottom: 20px;
+    background-color: #000000;
+    overflow: hidden; 
+    position: relative;
+    top: 0;
+    box-shadow: -1px 6px 14px -4px rgba(0,0,0,0.91);
+    -webkit-box-shadow: -1px 6px 14px -4px rgba(0,0,0,0.91);
+    -moz-box-shadow: -1px 6px 14px -4px rgba(0,0,0,0.91);
+}
+
+
+.topnav a {
+  float: left;
+  display: inline-block; 
+  color: #fff; 
+  text-align: center; 
+  padding: 14px 76px; 
+  text-decoration: none; 
+}
+
+
+.topnav a:hover {
+    background-color: #555;
+}
+
+/*
+.group {
+    margin-top: 7px;
+    display: flex;
+    align-items: center;
+    position: absolute;  
+    top: 0;
+    right: 0;
+    margin-right: 4px;
+    box-shadow: -1px 6px 14px -4px rgba(0,0,0,0.91);
+    -webkit-box-shadow: -1px 6px 14px -4px rgba(0,0,0,0.91);
+    -moz-box-shadow: -1px 6px 14px -4px rgba(0,0,0,0.91);
+  }  
+
+   .input {
+    width: 100%;
+    height: 40px;
+    line-height: 28px;
+    padding: 0 1rem;
+    padding-left: 2.5rem;
+    border: 2px solid transparent;
+    border-radius: 8px;
+    outline: none;
+    background-color: #ffffff;
+    color: #0d0c22;
+    transition: .3s ease;
+   }
+   
+   .input::placeholder {
+    color: #9e9ea7;
+   }
+   
+   .input:focus, input:hover {
+    outline: none;
+    border-color: rgba(234,76,137,0.4);
+    background-color: #fff;
+    box-shadow: 0 0 0 4px rgb(234 76 137 / 10%);
+   }
+   
+   .icon {
+    position: absolute;
+    left: 1rem;
+    fill: #9e9ea7;
+    width: 1rem;
+    height: 1rem;
+   }
+*/
+  .Portfolio {
+    background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="1000" viewBox="0 0 1000 1000"><path fill="%23444cf7" d="M817.5 629.5Q809 759 690.5 833t-199-52q-80.5-126-222-135.5t-174-157Q63 341 166.5 221T402 205q132 104 235.5 98.5t146 95.5q42.5 101 34 230.5Z"/></svg>');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    display: flex; /* Use flexbox to create a horizontal layout */
+    align-items: center;
+    height: 500px;
+    outline: #333;
+    overflow: hidden;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    margin-bottom: 32px;
+    overflow: hidden;
+  }
+
+  .Portfolio h1 {
+    z-index: 999;
+    height: 360px;
+    display: inline-block;
+    position: relative; /* Position the "Hello!" text absolutely */
+    top: 30; /* Align it to the top of the container */
+    right: 20; /* Align it to the right of the container */
+    margin: 0; /* Remove default margin */
+    padding: 5px; /* Add padding for better presentation */
+    
+  }
+  .Portfolio h2 {
+    z-index: 999;
+    display: inline-block;
+    position: relative;
+    height: 290px;
+    margin-left: -120px;
+    top: 10px;
+    white-space: nowrap;
+  }
+  .Portfolio p {
+    z-index: 999;
+    position: relative;
+    height: 125px;
+    right: 430px;
+    margin-left: 149px;
+    top: px;
+    font: bolder;
+    white-space: nowrap;
+  }
+  .Portfolio img {
+    max-width: 490px; /* Adjust the value as needed */
+    height: 380px; /* This ensures the aspect ratio is maintained */
+    margin-left: 40px;
+    margin-top: 40px;
+  }
+
+
+   .card1 {
+    position: relative;
+    display: inline-block;
+    align-items: center;
+    justify-content: center;
+    width: 320px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+    padding: 32px;
+    overflow: hidden;
+    border-radius: 10px;
+    transition: all 0.5s cubic-bezier(0.23, 1, 0.320, 1);
+  }
+  
+  .content {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 20px;
+    color: #000000;
+    transition: all 0.5s cubic-bezier(0.23, 1, 0.320, 1);
+  }
+  
+  .content .heading {
+    font-weight: 700;
+    font-size: 32px;
+  }
+  
+  .content .para {
+    line-height: 1.5;
+  }
+  
+  .content .btn {
+    color: #000000;
+    text-decoration: none;
+    padding: 10px;
+    font-weight: 600;
+    border: none;
+    cursor: pointer;
+    background: linear-gradient(-45deg, #f89b29 0%, #ff0f7b 100% );
+    border-radius: 5px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  .card1::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 5px;
+    background: linear-gradient(-45deg, #f89b29 0%, #ff0f7b 100% );
+    z-index: -1;
+    transition: all 0.5s cubic-bezier(0.23, 1, 0.320, 1);
+  }
+  
+  .card1:hover::before {
+    height: 100%;
+  }
+  
+  .card1:hover {
+    box-shadow: none;
+  }
+  
+  .card1:hover .btn {
+    color: #212121;
+    background: #e8e8e8;
+  }
+  
+  .content .btn:hover {
+    outline: 2px solid #000000;
+    background: transparent;
+    color: #000000;
+  }
+  
+  .content .btn:active {
+    box-shadow: none;
+  }
+
+  .card2 {
+    position: relative;
+    display: inline-block;
+    align-items: center;
+    justify-content: center;
+    width: 320px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+    padding: 32px;
+    overflow: hidden;
+    border-radius: 10px;
+    transition: all 0.5s cubic-bezier(0.23, 1, 0.320, 1);
+  }
+  
+  .content2 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 20px;
+    color: #000000;
+    transition: all 0.5s cubic-bezier(0.23, 1, 0.320, 1);
+  }
+  
+  .content2 .heading2 {
+    font-weight: 700;
+    font-size: 32px;
+  }
+  
+  .content2 .para2 {
+    line-height: 1.5;
+  }
+  
+  .content2 .btn2 {
+    color: #000000;
+    text-decoration: none;
+    padding: 10px;
+    font-weight: 600;
+    border: none;
+    cursor: pointer;
+    background: linear-gradient(-45deg, #f89b29 0%, #ff0f7b 100% );
+    border-radius: 5px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  .card2::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 5px;
+    background: linear-gradient(-45deg, #f89b29 0%, #ff0f7b 100% );
+    z-index: -1;
+    transition: all 0.5s cubic-bezier(0.23, 1, 0.320, 1);
+  }
+  
+  .card2:hover::before {
+    height: 100%;
+  }
+  
+  .card2:hover {
+    box-shadow: none;
+  }
+  
+  .card2:hover .btn2 {
+    color: #212121;
+    background: #e8e8e8;
+  }
+  
+  .content2 .btn2:hover {
+    outline: 2px solid #000000;
+    background: transparent;
+    color: #000000;
+  }
+  
+  .content2 .btn2:active {
+    box-shadow: none;
+  }
+
+  .card3 {
+    position: relative;
+    display: inline-block;
+    align-items: center;
+    justify-content: center;
+    width: 320px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+    padding: 32px;
+    overflow: hidden;
+    border-radius: 10px;
+    transition: all 0.5s cubic-bezier(0.23, 1, 0.320, 1);
+  }
+  
+  .content3 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 20px;
+    color: #000000;
+    transition: all 0.5s cubic-bezier(0.23, 1, 0.320, 1);
+  }
+  
+  .content3 .heading3 {
+    font-weight: 700;
+    font-size: 32px;
+  }
+  
+  .content3 .para3 {
+    line-height: 1.5;
+  }
+  
+  .content3 .btn3 {
+    color: #000000;
+    text-decoration: none;
+    padding: 10px;
+    font-weight: 600;
+    border: none;
+    cursor: pointer;
+    background: linear-gradient(-45deg, #f89b29 0%, #ff0f7b 100% );
+    border-radius: 5px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  .card3::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 5px;
+    background: linear-gradient(-45deg, #f89b29 0%, #ff0f7b 100% );
+    z-index: -1;
+    transition: all 0.5s cubic-bezier(0.23, 1, 0.320, 1);
+  }
+  
+  .card3:hover::before {
+    height: 100%;
+  }
+  
+  .card3:hover {
+    box-shadow: none;
+  }
+  
+  .card3:hover .btn3 {
+    color: #212121;
+    background: #e8e8e8;
+  }
+  
+  .content3 .btn3:hover {
+    outline: 2px solid #000000;
+    background: transparent;
+    color: #000000;
+  }
+  
+  .content3 .btn3:active {
+    box-shadow: none;
+  }
+  
+
+.card1 {
+    display: inline-block;
+    width: 30%;
+    margin-left: 20px; 
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+
+.card2 {
+    display: inline-block;
+    width: 30%;
+    margin-left: 50px; 
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+
+.card3 {
+    display: inline-block;
+    width: 30%;
+    margin-left: 50px;
+    padding: 20px;
+    box-sizing: border-box;
+}
